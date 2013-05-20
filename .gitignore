@@ -1,4 +1,6 @@
 .DS_Store
-cv.pdf
+*.pdf
 *.log
 .texpadtmp/
+*.htoc
+*.html

@@ -264,6 +264,7 @@ clean:
 	$(RM) *~ *.bak *%
 	$(RM) *.log *.aux *.dvi *.blg *.toc *.bbl *.lof *.lot \
 		*.idx *.ilg *.int *.out */*.aux *.run.xml *-blx.bib \
+		*.haux *.hbbl *.htoc \
 		$(EPS_PNG_FILES) $(EPS_FIG_FILES) $(PDF_FIG_FILES) \
 		 $(PDF_EPS_FILES)
 
