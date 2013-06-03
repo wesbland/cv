@@ -4,3 +4,9 @@
 .texpadtmp/
 *.htoc
 *.html
+cv-blx.bib
+cv.aux
+cv.bbl
+cv.blg
+cv.out
+cv.run.xml
