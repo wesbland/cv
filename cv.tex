@@ -3,6 +3,8 @@
 \usepackage{cv}
 \usepackage{hyperref}
 
+\def \mywebsite {http://www.mcs.anl.gov/~wbland}
+
 %----------------------------------------------------------------------------------------
 %	YOUR NAME AND ADDRESS(ES) SECTION
 %----------------------------------------------------------------------------------------
@@ -14,12 +16,13 @@
       Argonne, Illinois 60439-4844\\
       Phone: (630) 252-1390\\
       Email: \href{mailto:wbland@mcs.anl.gov}{wbland@mcs.anl.gov}\\
-      WWW: \url{http://www.mcs.anl.gov/~wbland}
+      WWW: \url{\mywebsite}
   } 
 
 \bibliography{papers}
 
-\addtocategory{talks}{Bland:Euro-Par:Resilience:2012}
+\addtocategory{talks}{jlpc13}
+\addtocategory{talks}{resilience12}
 \addtocategory{journals}{CPE:CPE3100}
 \addtocategory{journals}{Bland:2013cj}
 \addtocategory{techreports}{bland2012proposal}
@@ -70,27 +73,7 @@
 \printbib{conferences}
 \printbib{techreports}
 \printbib{phd}
-
-%----------------------------------------------------------------------------------------
-
-\vspace{0.2in} % Some whitespace between sections
-
-%----------------------------------------------------------------------------------------
-%	TUTORIALS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{\centerline{TUTORIALS}}
 \printbib{tutorials}
-
-%----------------------------------------------------------------------------------------
-
-\vspace{0.2in} % Some whitespace between sections
-
-%----------------------------------------------------------------------------------------
-%	INVITED TALKS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{\centerline{INVITED TALKS}}
 \printbib{talks}
 
 %----------------------------------------------------------------------------------------
