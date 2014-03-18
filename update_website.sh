@@ -8,7 +8,6 @@ bibtex2html -nokeys -d -r -s acm \
     -noheader -nofooter -nodoc -nokeywords \
     -e june13mpi \
     papers.bib
-hevea -o talks.html talks_header.tex
 scp wesley_bland.pdf papers.html papers_bib.html talks.html login1.mcs.anl.gov:public_html/
 scp -r slides login1.mcs.anl.gov:public_html/
 make clean
