@@ -4,7 +4,7 @@ export TMPDIR=.
 make
 mv cv.pdf wesley_bland.pdf
 bibtex2html -nokeys -d -r -s acm \
-    -css website/css/style.css \
+    -css ../website/css/style.css \
     -noheader -nofooter -nodoc -nokeywords \
     -e june13mpi \
     papers.bib
