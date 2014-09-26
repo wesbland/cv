@@ -1,0 +1,95 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage[paperwidth=8.5in, paperheight=11in]{geometry}
+\usepackage{enumitem}
+\usepackage{bibentry}
+
+\def \mywebsite {http://www.mcs.anl.gov/~wbland}
+\setlength{\parindent}{0pt}
+\setlist{nosep}
+
+\nobibliography*
+\pagenumbering{gobble}
+
+\begin{document}
+
+\section*{Wesley Bland}
+    9700 South Cass Avenue\\
+    Bldg. 240, Room: 3154 \\
+    Argonne, Illinois 60439-4844\\
+    Phone: (630) 252-1390\\
+    Email: \href{mailto:wbland@anl.gov}{wbland@anl.gov}\\
+    Website: \url{\mywebsite}
+
+\subsection*{Biographical Summary}
+Wesley Bland is a postdoctoral appointee at Argonne National Laboratory in the
+Programming Models and Runtime Systems group led by Dr. Pavan Balaji. He
+graduated from the University of Tennessee, Knoxville in 2013 under the
+advisement of Dr. Jack Dongarra. His research interests include fault
+tolerance, parallel and distributed programming models, and runtime systems.
+He is an active member of the MPI Forum and the Fault Tolerance Working Group,
+a developer on the MPICH project, and involved in various other resilience
+related projects at Argonne National Laboratory.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\subsection*{Education} 
+\input{education}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\subsection*{Professional Experience} 
+\input{professional-short}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\subsection*{Selected Publications}
+
+\begin{enumerate}
+\item \bibentry{ppopp14}
+\item \bibentry{Bland01082013}
+\item \bibentry{CPE:CPE3100}
+\item \bibentry{Bland:2013cj}
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	STUDENTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section*{STUDENTS SUPERVISED}
+%\input{students}
+
+%----------------------------------------------------------------------------------------
+%	HONORS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section*{HONORS} 
+%\input{honors}
+
+%----------------------------------------------------------------------------------------
+%	SERVICE SECTION
+%----------------------------------------------------------------------------------------
+
+\subsection*{Service}
+\input{service}
+
+%----------------------------------------------------------------------------------------
+%	MEMBERSHIPS SECTION
+%----------------------------------------------------------------------------------------
+
+%\subsection*{MEMBERSHIPS} 
+%\input{memberships}
+
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{acm}
+%\bibliography{papers}
+
+\end{document}
